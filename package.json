@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/monicagil/protractor-workshop-2017.git"
+    "url": "git+https://github.com/stevenasuarez/protractor-workshop-2017.git"
   },
   "keywords": [
     "ui-testing",
@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/stevenasuarez/protractor-workshop-2017/issues"
   },
-  "homepage": "https://github.com/monicagil/protractor-workshop-2017#readme",
+  "homepage": "https://github.com/stevenasuarez/protractor-workshop-2017#readme",
   "dependencies": {
     "protractor": "^5.1.2"
   },
