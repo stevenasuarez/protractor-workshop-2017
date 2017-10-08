@@ -1,4 +1,4 @@
-import { browser, Config } from "protractor";
+import { browser, Config } from "";
 
 export const config: Config = {
     framework: 'jasmine',
