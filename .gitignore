@@ -440,7 +440,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/node,windows,intellij,webstorm,jetbrains,webstorm+all,webstorm+iml,intellij+iml,intellij+all,jetbrains+iml,jetbrains+all
-
 ## Typescript
 dist
+
+# End of https://www.gitignore.io/api/node,windows,intellij,webstorm,jetbrains,webstorm+all,webstorm+iml,intellij+iml,intellij+all,jetbrains+iml,jetbrains+all
