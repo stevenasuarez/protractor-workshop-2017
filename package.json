@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/stevenasuarez/protractor-workshop-2017#readme",
   "dependencies": {
+    "@types/jasmine": "^2.6.0",
     "protractor": "^5.1.2"
   },
   "devDependencies": {
