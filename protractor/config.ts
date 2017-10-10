@@ -3,10 +3,11 @@ import { reporter } from './helpers/reporter';
 
 export const config: Config = {
   framework: 'jasmine',
-  specs: ['../test/Google.spec.js'],
+  specs: ['../test/**/*.spec.js'],
   noGlobals: true,
   SELENIUM_PROMISE_MANAGER: false,
-  onPrepare: () => {
+  getPageTimeout: 1000,
+    onPrepare: () => {
     browser.ignoreSynchronization = true;
     reporter();
   }
