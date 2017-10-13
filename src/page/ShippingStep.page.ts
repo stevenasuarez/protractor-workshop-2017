@@ -1,17 +1,17 @@
 import { $, ElementFinder } from "protractor";
 
 export class ShippingStepPage {
-
-    private get agreeTermsOfService(): ElementFinder {
+    private get agreeTermsOfServiceCheck(): ElementFinder {
         return $('#cgv');
     }
 
-    private get proceedToCheckout(): ElementFinder {
+    private get proceedToCheckoutButton(): ElementFinder {
         return $('#form > p > button > span');
     }
 
     public async acceptShipping(): Promise<void> {
-        await this.agreeTermsOfService.click();
-        await this.proceedToCheckout.click();
+        await this.agreeTermsOfServiceCheck.click();
+        await this.proceedToCheckoutButton.click();
     }
 }
+

@@ -1,15 +1,15 @@
 import { browser } from 'protractor';
 import { MenuContentPage } from '../src/page';
-import {OrderResumePage} from "../src/page/OrderResume.page";
-import {ProductDetailPage} from "../src/page/ProductDetail.page";
-import {ProductAddedModalPage} from "../src/page/ProductAddedModal.page";
-import {SummaryStepPage} from "../src/page/SummaryStep.page";
-import {SignInStepPage} from "../src/page/SignInStep.page";
-import {AddressStepPage} from "../src/page/AddressStep.page";
-import {ShippingStepPage} from "../src/page/ShippingStep.page";
-import {PaymentStepPage} from "../src/page/PaymentStep.page";
-import {BankPaymentPage} from "../src/page/BankPayment.page";
-import {ProductListPage} from "../src/page/ProductList.page";
+import {OrderResumePage} from '../src/page';
+import {ProductDetailPage} from '../src/page';
+import {ProductAddedModalPage} from '../src/page';
+import {SummaryStepPage} from '../src/page';
+import {SignInStepPage} from '../src/page';
+import {AddressStepPage} from '../src/page';
+import {ShippingStepPage} from '../src/page';
+import {PaymentStepPage} from '../src/page';
+import {BankPaymentPage} from '../src/page';
+import {ProductListPage} from '../src/page';
 
 describe('Buy a t-shirt', () => {
     const menuContentPage: MenuContentPage = new MenuContentPage();
