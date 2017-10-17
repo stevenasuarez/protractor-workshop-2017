@@ -6,7 +6,10 @@ export const config: Config = {
   specs: ['../test/**/*.spec.js'],
   noGlobals: true,
   SELENIUM_PROMISE_MANAGER: false,
-  getPageTimeout: 1000,
+  getPageTimeout: 30000,
+  jasmineNodeOpts: {
+      defaultTimeoutInterval: 120000
+  },
     onPrepare: () => {
     browser.ignoreSynchronization = true;
     reporter();
